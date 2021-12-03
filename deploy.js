@@ -2,7 +2,6 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile.js');
 
-const MNEMONIC_PHRASE = 'video monster benefit field trim jungle blossom nothing rose tooth refuse decorate';
 const INFURA_API_KEY = 'https://rinkeby.infura.io/v3/2e5d5b3653fb4f408c5305b7b5490a42';
 const INITIAL_MESSAGE = 'Hi there!';
 
